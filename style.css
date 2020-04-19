@@ -27,19 +27,19 @@ body {
 }
 
 .slider-container {
-	position: relative;
-	margin:0 auto;
-	width: 1366px;
-	height: 800px;
+    position: relative;
+    margin: 0 auto;
+    width: 1366px;
+    height: 800px;
 }
 
 .slides {
-	position: absolute;
-	width: 1170px;
-	height: 800px;
-	visibility: hidden;
-	opacity: 0;
-	-webkit-transition: .5s;
+    position: absolute;
+    width: 1170px;
+    height: 800px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .5s;
     -moz-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
@@ -72,79 +72,80 @@ body {
 }
 
 .slide_img {
-	display: none;
+    display: none;
 }
 
 .slide_imgg {
-	display: none;
+    display: none;
 }
 
-#arrow_next label, #arrow_prev label {
-	color: rgba(0, 0, 0, .7);
-	position: absolute;
-	visibility: hidden;
-	cursor: pointer;
-	top: 45%;
-	font-size: 80px;
+#arrow_next label,
+#arrow_prev label {
+    color: rgba(0, 0, 0, .7);
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+    top: 45%;
+    font-size: 5em;
 }
 
 #arrow_prev label {
-	left: 15px;
+    left: 15px;
 }
 
 #arrow_next label {
-	right: 15px;
+    right: 15px;
 }
 
-#arrow_nextt label, #arrow_prevv label {
-	color: rgba(0, 0, 0, .7);
-	position: absolute;
-	visibility: hidden;
-	cursor: pointer;
-	top: 45%;
-	font-size: 80px;
+#arrow_nextt label,
+#arrow_prevv label {
+    color: rgba(0, 0, 0, .7);
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+    top: 45%;
+    font-size: 5em;
 }
 
 #arrow_prevv label {
-	left: 15px;
+    left: 15px;
 }
 
 #arrow_nextt label {
-	right: 15px;
+    right: 15px;
 }
 
 .switchers {
-	position: absolute;
-	width: 100%;
-	height: 30px;
-	bottom: 19px;
-	text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 19px;
+    text-align: center;
 }
+
 .switcher {
-	background: #ccc;
-	width: 30px;
-	height: 30px;
-	position: relative;
-	top: -11px;
-	margin: 0 4px;
-	display: inline-block;
-	border-radius: 50%;
-	cursor: pointer;
+    background: #ccc;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -11px;
+    margin: 0 4px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 #img_1:checked ~ #first,
 #img_2:checked ~ #second,
-#img_3:checked ~ #third 
-{
-	visibility: visible;
-	opacity: 1;
+#img_3:checked ~ #third {
+    visibility: visible;
+    opacity: 1;
 }
 
 #img_1:checked ~ div #switcher1,
 #img_2:checked ~ div #switcher2,
-#img_3:checked ~ div #switcher3
-{
-	background: #000;
+#img_3:checked ~ div #switcher3 {
+    background: #000;
     width: 40px;
     height: 40px;
     margin-bottom: -5px;
@@ -152,31 +153,27 @@ body {
 
 #img_1:checked ~ #arrow_next label:nth-child(2),
 #img_2:checked ~ #arrow_next label:nth-child(3),
-#img_3:checked ~ #arrow_next label:nth-child(1)
-{
-	visibility: visible;
+#img_3:checked ~ #arrow_next label:nth-child(1) {
+    visibility: visible;
 }
 
 #img_1:checked ~ #arrow_prev label:nth-child(3),
 #img_2:checked ~ #arrow_prev label:nth-child(1),
-#img_3:checked ~ #arrow_prev label:nth-child(2)
-{
-	visibility: visible;
+#img_3:checked ~ #arrow_prev label:nth-child(2) {
+    visibility: visible;
 }
 
 #img_4:checked ~ #four,
 #img_5:checked ~ #five,
-#img_6:checked ~ #six 
-{
-	visibility: visible;
-	opacity: 1;
+#img_6:checked ~ #six {
+    visibility: visible;
+    opacity: 1;
 }
 
 #img_4:checked ~ div #switcher4,
 #img_5:checked ~ div #switcher5,
-#img_6:checked ~ div #switcher6
-{
-	background: #000;
+#img_6:checked ~ div #switcher6 {
+    background: #000;
     width: 40px;
     height: 40px;
     margin-bottom: -5px;
@@ -184,16 +181,14 @@ body {
 
 #img_4:checked ~ #arrow_nextt label:nth-child(2),
 #img_5:checked ~ #arrow_nextt label:nth-child(3),
-#img_6:checked ~ #arrow_nextt label:nth-child(1)
-{
-	visibility: visible;
+#img_6:checked ~ #arrow_nextt label:nth-child(1) {
+    visibility: visible;
 }
 
 #img_4:checked ~ #arrow_prevv label:nth-child(3),
 #img_5:checked ~ #arrow_prevv label:nth-child(1),
-#img_6:checked ~ #arrow_prevv label:nth-child(2)
-{
-	visibility: visible;
+#img_6:checked ~ #arrow_prevv label:nth-child(2) {
+    visibility: visible;
 }
 
 .clearfix:after {
@@ -217,7 +212,7 @@ body {
 
 .menu-link {
     color: #8c8c8c;
-    font-size: 14px;
+    font-size: 0.88em;
     letter-spacing: 1.4px;
     font-weight: 300;
     text-decoration: none;
@@ -226,10 +221,10 @@ body {
 }
 
 .menu-link:hover {
-      color: #212121;
-        font-weight: 400;
-        border-bottom: 2px solid #212121;
-        text-decoration: none;
+    color: #212121;
+    font-weight: 400;
+    border-bottom: 2px solid #212121;
+    text-decoration: none;
 }
 
 .menu-link-active {
@@ -246,21 +241,21 @@ body {
 
 .slider-trending {
     color: #43a047;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .slider-h2 {
     color: #212121;
-    font-size: 62px;
+    font-size: 3.9em;
     font-weight: 100;
     text-transform: uppercase;
 }
 
 .slider-content {
     color: #6c6c6c;
-    font-size: 14px;
+    font-size: 0.88em;
     font-weight: 300;
     width: 458px;
     margin-top: 22px;
@@ -270,7 +265,7 @@ body {
 
 .button {
     color: #212121;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     text-transform: uppercase;
     width: 212px;
@@ -301,7 +296,7 @@ body {
 
 .tab-menu {
     float: left;
-    width: 300px;
+    width: 350px;
 }
 
 .tab-list {
@@ -314,7 +309,7 @@ body {
 
 .tab-link {
     color: #6c6c6c;
-    font-size: 36px;
+    font-size: 2.3em;
     font-weight: 700;
     text-decoration: none;
     padding-top: 0px;
@@ -325,7 +320,7 @@ body {
 
 .tab-link-active {
     color: #212121;
-    font-size: 36px;
+    font-size: 2.3em;
     font-weight: 700;
     text-decoration: none;
     border-bottom: 3px solid #212121;
@@ -339,7 +334,7 @@ body {
     display: inline-block;
     float: right;
     color: #212121;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
@@ -426,7 +421,7 @@ body {
 }
 
 .product-1-fishnet {
-    font-size: 22px;
+    font-size: 1.4em;
     font-weight: 700;
     line-height: 29.88px;
     margin-bottom: 23px;
@@ -434,7 +429,7 @@ body {
 
 .product-1-content {
     display: inline-block;
-    font-size: 13px;
+    font-size: 0.81em;
 }
 
 .tab-product:hover .product-1-hover {
@@ -459,7 +454,7 @@ body {
     margin-left: 51px;
     margin-top: 228px;
     color: #1e88e5;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     line-height: 48px;
     text-transform: uppercase;
@@ -467,7 +462,7 @@ body {
 
 .promo-1-h2 {
     color: #212121;
-    font-size: 36px;
+    font-size: 2.3em;
     font-weight: 700;
     margin-top: 0;
     margin-left: 52px;
@@ -476,7 +471,7 @@ body {
 .promo-1-content {
     width: 374px;
     color: #212121;
-    font-size: 13px;
+    font-size: 0.81em;
     font-weight: 300;
     line-height: 24.04px;
     margin-left: 50px;
@@ -497,7 +492,7 @@ body {
     margin-left: 51px;
     margin-top: 228px;
     color: #1e88e5;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     line-height: 48px;
     text-transform: uppercase;
@@ -505,7 +500,7 @@ body {
 
 .promo-2-h2 {
     color: #212121;
-    font-size: 36px;
+    font-size: 2.3em;
     font-weight: 700;
     margin-top: 0;
     margin-left: 52px;
@@ -514,7 +509,7 @@ body {
 .promo-2-content {
     width: 374px;
     color: #212121;
-    font-size: 13px;
+    font-size: 0.81em;
     font-weight: 300;
     line-height: 24.04px;
     margin-left: 50px;
@@ -531,7 +526,7 @@ body {
     float: left;
     display: inline-block;
     color: #212121;
-    font-size: 36px;
+    font-size: 2.3em;
     font-weight: 700;
     margin-bottom: 64px;
 }
@@ -568,7 +563,7 @@ body {
 
 .slider-2-trending {
     color: #e53935;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -591,7 +586,7 @@ body {
 
 .exclusive-1-exclusive {
     color: #1e88e5;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 700;
     line-height: 48px;
     text-transform: uppercase;
@@ -599,7 +594,7 @@ body {
 
 .exclusive-1-h2 {
     color: #212121;
-    font-size: 36px;
+    font-size: 2.3em;
     font-weight: 700;
     margin-top: 0;
 }
@@ -607,7 +602,7 @@ body {
 .exclusive-1-content {
     width: 332px;
     color: #212121;
-    font-size: 13px;
+    font-size: 0.8125em;
     font-weight: 300;
     line-height: 24.04px;
     margin-top: 4px;
@@ -646,7 +641,7 @@ body {
 
 .mobile-trending {
     color: #6c6c6c;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -666,7 +661,8 @@ body {
     height: 176px;
     padding-bottom: 30px;
     padding-top: 120px;
-    background:  #f7f7f7;;
+    background: #f7f7f7;
+    ;
     justify-content: space-between;
 }
 
@@ -677,7 +673,7 @@ body {
 
 .footer-heading {
     color: #6c6c6c;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
@@ -686,7 +682,7 @@ body {
 
 .adress {
     color: #212121;
-    font-size: 13px;
+    font-size: 0.8125em;
     font-weight: 400;
     line-height: 22px;
     margin-top: 25px;
@@ -694,7 +690,7 @@ body {
 
 .number {
     color: #212121;
-    font-size: 13px;
+    font-size: 0.8125em;
     font-weight: 400;
     line-height: 22px;
     margin-top: 29.2px
@@ -721,7 +717,7 @@ body {
 
 .useful-link {
     color: #212121;
-    font-size: 13px;
+    font-size: 0.8125em;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
@@ -749,11 +745,10 @@ body {
 
 #email::placeholder {
     color: #6c6c6c;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 300;
     line-height: 22px;
 }
-
 
 .email-button {
     background-color: transparent;
@@ -763,7 +758,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 1.5em;
     cursor: pointer;
     position: absolute;
     right: 20px;
@@ -781,7 +776,7 @@ body {
 
 .lets-stay-text {
     color: #212121;
-    font-size: 13px;
+    font-size: 0.8125em;
     font-weight: 400;
     line-height: 22px;
     margin-top: 25px;
@@ -794,7 +789,7 @@ body {
 
 .footfooter {
     height: 58px;
-    background:  #f7f7f7;;
+    background: #f7f7f7;
     display: flex;
     justify-content: space-between;
     text-align: center
@@ -802,7 +797,7 @@ body {
 
 .footfooter-1 {
     color: #6c6c6c;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
@@ -813,7 +808,7 @@ body {
 
 .footfooter-2 {
     color: #6c6c6c;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 400;
     line-height: 26px;
     text-transform: uppercase;
@@ -824,7 +819,7 @@ body {
 
 .footfooter-3 {
     color: #6c6c6c;
-    font-size: 12px;
+    font-size: 0.75em;
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
@@ -865,14 +860,14 @@ body {
 .interior-product-top {
     height: 360px;
     background-image: url(img/interior-product/hero-back.jpg);
-    border: 1px solid ;
+    border: 1px solid;
 }
 
 .top-text {
     width: 575px;
     height: 58px;
     color: #212121;
-    font-size: 62px;
+    font-size: 3.875em;
     font-weight: 100;
     line-height: 72px;
     margin-top: 168px;
@@ -904,14 +899,13 @@ body {
 .interior-tab-link {
     text-decoration: none;
     color: #6c6c6c;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.8px;
     padding-left: 7px;
     padding-right: 15.75px;
 }
-
 
 .list1:hover {
     border-bottom: 3px solid #000;
@@ -977,9 +971,8 @@ body {
 }
 
 .icon-loop2:before {
-  content: "\ea2e";
+    content: "\ea2e";
 }
-
 
 .refresh {
     background-color: transparent;
@@ -989,7 +982,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 42px;
+    font-size: 2.625em;
     cursor: pointer;
     position: absolute;
     bottom: 140px;
@@ -1026,7 +1019,7 @@ product-details-menu {
 .product-details-link {
     text-decoration: none;
     color: #9c9c9c;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.8px;
@@ -1068,14 +1061,14 @@ product-details-menu {
 
 .description-text-text {
     color: #212121;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: 700;
 }
 
 .text-hot {
     color: #e53935;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 700;
     line-height: 48.02px;
     text-transform: uppercase;
@@ -1087,7 +1080,7 @@ product-details-menu {
     display: inline-block;
     color: #212121;
     font-family: Gotham;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: 300;
     line-height: 48.02px;
 }
@@ -1096,7 +1089,7 @@ product-details-menu {
     display: inline-block;
     color: #212121;
     font-family: Gotham;
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: 300;
     line-height: 48.02px;
     font-size: 48px;
@@ -1105,7 +1098,7 @@ product-details-menu {
 
 .button1 {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
     text-transform: uppercase;
     width: 510px;
@@ -1131,10 +1124,9 @@ product-details-menu {
     text-align: left;
     color: #212121;
     font-family: Gotham;
-    font-size: 16.5px;
+    font-size: 1.031em;
     font-weight: 300;
-    line-height: 24.01px
-    letter-spacing: 0.4px;
+    line-height: 24.01px letter-spacing: 0.4px;
 }
 
 .related-products {
@@ -1173,12 +1165,12 @@ product-details-menu {
 }
 
 .icon-location:before {
-  content: "\e947";
+    content: "\e947";
 }
 
 .icon-location {
     color: #212121;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 400;
     line-height: 30px;
     text-transform: uppercase;
@@ -1186,7 +1178,7 @@ product-details-menu {
 
 .california {
     color: #212121;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
     line-height: 29.88px;
     text-transform: uppercase;
@@ -1197,7 +1189,7 @@ product-details-menu {
 .phonemailadress {
     margin-top: 7px;
     color: #6c6c6c;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 700;
     line-height: 20px;
 }
@@ -1209,7 +1201,7 @@ product-details-menu {
 
 .contact-adress {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 0.8125em;
     color: black;
 }
 
@@ -1219,4 +1211,67 @@ product-details-menu {
     padding-left: 19px;
 }
 
-@media 
+@media (max-width: 1024px) {
+    body {
+        width: 1366px;
+    }
+    
+    .container {
+        width: 100%;
+        min-width: 400px;
+    }
+    
+    .content {
+        min-height: 100%;
+    }
+    
+    .menu-link {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    
+    .slider-content {
+        font-size: 1.1em;
+        width: 500px;
+    }
+    
+    .product-1-content {
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+    
+    .promo-1-content {
+        font-size: 1.1em;
+        width: 400px;
+        font-weight: 400;
+    }
+    
+    .promo-2-content {
+        font-size: 1.1em;
+        width: 400px;
+        font-weight: 400;
+    }
+    
+    .exclusive-1-content {
+        font-size: 1.1em;
+        font-weight: 400;
+        width: 370px;
+    }
+    
+    .adress {
+        font-size: 1.1em;
+    }
+    
+    .number {
+        font-size: 1.1em;
+    }
+    
+    .lets-stay-text {
+        font-size: 1.1em;
+    }
+    
+    .footfooter-2 {
+        font-size: 2.5em;
+    }
+    
+}
