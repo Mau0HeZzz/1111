@@ -1228,7 +1228,7 @@ product-details-menu {
     
     .menu-link {
         font-size: 1.5em;
-        font-weight: 400;
+        font-weight: 700;
     }
     
     .slider-content {
@@ -1322,7 +1322,7 @@ product-details-menu {
     }
     
     .contact-info-1 {
-        width: 100%;
+        width: 310px;
         padding-left: 30px;
         padding-right: 30px;
         margin-top: 15px;
