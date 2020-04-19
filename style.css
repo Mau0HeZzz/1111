@@ -20,6 +20,7 @@ body {
 .container {
     width: 1366px;
     margin: 0 auto;
+    position: relative;
 }
 
 .content {
@@ -1136,7 +1137,7 @@ product-details-menu {
 }
 
 .contact-information {
-    height: 370px;
+    min-height: 370px;
     display: flex;
     padding-top: 71px;
     padding-bottom: 122px;
@@ -1272,6 +1273,65 @@ product-details-menu {
     
     .footfooter-2 {
         font-size: 2.5em;
+    }
+    
+    .interior-tab-list {
+        margin-left: 72px;
+    }
+    
+    .interior-product-trending {
+        float:left;
+    }
+    
+    .refresh {
+        font-size: 4em;
+        bottom: 120px;
+        right: 47%
+    }
+    
+    .product-details-links {
+        padding-left: 98px;
+        padding-right: 98px;
+    }
+    
+    .product-details-list {
+        margin-left: 72px;
+    }
+    
+    .detail-description {
+        min-height: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .detail-description-text {
+        width: 100%;
+    }
+    
+    .text-many-text {
+        max-width: 100%;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    
+    .contact-information {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contact-info-1 {
+        width: 310px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        float: left;
+    }
+    
+    .contact-adress {
+        font-weight: 700;
     }
     
 }
